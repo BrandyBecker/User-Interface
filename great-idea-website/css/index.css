@@ -218,11 +218,19 @@ header {
 
 .getStarted {
   text-align: center;
+  color: black;
   font-size: 20px;
   display: inline-block;
   margin: 10px 0;
   padding: 10px 50px;
   border: 1px solid black;
+  cursor: pointer;
+}
+
+.getStarted:focus {
+  background-color: dimgrey;
+  color: white;
+  decoration: none;
 }
 
 .topContent {
