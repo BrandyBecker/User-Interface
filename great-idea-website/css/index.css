@@ -230,7 +230,6 @@ header {
 .getStarted:focus {
   background-color: dimgrey;
   color: white;
-  decoration: none;
 }
 
 .topContent {
