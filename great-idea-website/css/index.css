@@ -165,11 +165,11 @@ p {
 
 .navigation {
   /* margin-left: 5%; */
-  margin-top: 1%;
+  margin-top: 0.3px;
   padding: 1px;
   position: fixed;
   top: 0;
-  width: 69.8%;
+  width: 69.9%;
   background-color: gainsboro;
 }
 
