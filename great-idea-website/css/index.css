@@ -136,7 +136,7 @@ table {
 html,
 body {
   height: 100%;
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Blinker", sans-serif;
 }
 
 h1,
@@ -154,6 +154,7 @@ h5 {
 p {
   line-height: 1.25;
   margin: 20px 0;
+  font-family: "Arvo", sans-serif;
 }
 
 .container {
@@ -163,8 +164,13 @@ p {
 }
 
 .navigation {
-  margin-left: 5%;
-  margin-top: 2%;
+  /* margin-left: 5%; */
+  margin-top: 1%;
+  padding: 1px;
+  position: fixed;
+  top: 0;
+  width: 69.8%;
+  background-color: gainsboro;
 }
 
 .navigation a {
@@ -174,8 +180,14 @@ p {
   text-decoration: none;
 }
 
+.navigation a:hover {
+  color: black;
+  transform: scale(1.5);
+  text-shadow: 1px 1px white;
+}
+
 .navigation .logo {
-  margin-left: 62px;
+  margin-left: 80px;
 }
 
 header img {
@@ -191,6 +203,7 @@ header {
   border-bottom: 1px solid black;
   padding-bottom: 5%;
   margin: 5%;
+  margin-top: 150px;
 }
 
 .headText {
@@ -235,7 +248,7 @@ header {
 }
 
 .bottomText {
-  width: 30%;
+  width: 32%;
   display: inline-block;
 }
 
